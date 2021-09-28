@@ -1,0 +1,22 @@
+
+.hero .container-my {
+    padding-top: 100px;
+}
+
+.hero__my-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.hero__my-name {
+    font-size: 2.5rem;
+}
+
+.hero__app-icon {
+    transition: all .3s ease-in-out;
+
+    &:hover {
+        color: orangered !important;
+    }
+}

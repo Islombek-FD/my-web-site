@@ -1,0 +1,28 @@
+// Header Styles
+.header {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.header__logo {
+    font-size: 25px;
+    letter-spacing: 0;
+    color: #162232;
+}
+
+.header__nav-item {
+    line-height: 1.5;
+    letter-spacing: 0.4px;
+}
+
+.header__nav-link {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    opacity: 0.7;
+    transition: all .3s ease;
+
+    &:hover {
+        color: orangered !important;
+    }
+}

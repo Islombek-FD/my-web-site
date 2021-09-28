@@ -1,0 +1,59 @@
+.container-my {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.header {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.header__logo {
+  font-size: 25px;
+  letter-spacing: 0;
+  color: #162232;
+}
+
+.header__nav-item {
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+}
+
+.header__nav-link {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+  opacity: 0.7;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.header__nav-link:hover {
+  color: orangered !important;
+}
+
+.hero .container-my {
+  padding-top: 100px;
+}
+
+.hero__my-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.hero__my-name {
+  font-size: 2.5rem;
+}
+
+.hero__app-icon {
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.hero__app-icon:hover {
+  color: orangered !important;
+}
+/*# sourceMappingURL=main.css.map */
